@@ -10,7 +10,7 @@ const Experience = () => {
 
      <div  className='container experience_container'>
             <motion.div initial={{opacity:0.5,scale:0.5,x:-100}}
-                transition={{duration:1.5, }}
+                transition={{duration:2, }}
                 whileInView={{opacity:1,scale:1,x:0}}>
                 <div 
                 className='card experience_frontend'>
@@ -56,7 +56,7 @@ const Experience = () => {
                 </div>
                 </motion.div>
                 <motion.div initial={{opacity:0.5,scale:0.5,x:100}}
-                transition={{duration:1.5, }}
+                transition={{duration:2, }}
                 whileInView={{opacity:1,scale:1,x:0}}>
                 <div  className='card experience_backend'>
                 <h3>Back-End Development</h3>
