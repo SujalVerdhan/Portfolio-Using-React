@@ -23,7 +23,7 @@ const Contact = () => {
           <div className='container contact_container'>
             <motion.div 
             initial={{opacity:0,x:-100,scale:0.5}}
-                    transition={{duration:1.5}}
+                    transition={{duration:2}}
                     whileInView={{opacity:1,x:0,scale:1}}
             className='contact_options'>
                 <article className='contact_option'>
@@ -48,7 +48,7 @@ const Contact = () => {
                 </article>
             </motion.div>
             <motion.form initial={{opacity:0,x:100,scale:0.5}}
-                    transition={{duration:1.5}}
+                    transition={{duration:2}}
                     whileInView={{opacity:1,x:0,scale:1}}
                     ref={form} onSubmit={sendEmail}>
                 <input type='text' name="name" placeholder="Enter Your Name" required/>
