@@ -25,7 +25,7 @@ const Portfolio = () => {
              
            className='container portfolio_container'>
            {data.map(item=>{
-            return <motion.div initial={{opacity:0,scale:0.5,x:100}} transition={{duration:1.5}} whileInView={{opacity:1,scale:1,x:0}}><article className='portfolio_item'>
+            return <motion.div initial={{opacity:0,scale:0.5,x:100}} transition={{duration:2}} whileInView={{opacity:1,scale:1,x:0}}><article className='portfolio_item'>
             <div className='portfolio_item_image'>
              <img src={item.img}/>
             </div>
