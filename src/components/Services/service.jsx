@@ -10,7 +10,7 @@ const Service = () => {
           <div className='container services_container'>
           <motion.div
            initial={{opacity:0.5,scale:0.5,x:-180}}
-                transition={{duration:1.5, }}
+                transition={{duration:2, }}
                 whileInView={{opacity:1,scale:1,x:0}}
           >
             <article className='service'>
@@ -48,7 +48,7 @@ const Service = () => {
             </motion.div>
             <motion.div
            initial={{opacity:0.5,scale:0.5,x:-180}}
-                transition={{duration:1.5,delay:0.1 }}
+                transition={{duration:2,delay:0.1 }}
                 whileInView={{opacity:1,scale:1,x:0}}
           >
             <article className='service'>
@@ -90,7 +90,7 @@ const Service = () => {
             </motion.div>
             <motion.div
            initial={{opacity:0.5,scale:0.5,x:-180}}
-                transition={{duration:1.5,delay:0.1 }}
+                transition={{duration:2,delay:0.1 }}
                 whileInView={{opacity:1,scale:1,x:0}}
           >
             <article className='service'>
