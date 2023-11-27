@@ -12,7 +12,7 @@ const About = () => {
             <h2>About Me</h2>
             <div className='container about_container'>
                 <motion.div initial={{opacity:0,x:100,scale:0.5}}
-                    transition={{duration:1.5}}
+                    transition={{duration:2}}
                     whileInView={{opacity:1,x:0,scale:1}} className='about_me'>
                     <div className='about_me_image'>
                         <img src={ME}></img>
@@ -21,7 +21,7 @@ const About = () => {
                 <div className='about_content'>
                     <motion.div
                       initial={{opacity:0,x:100,scale:0.5}}
-                    transition={{duration:1.5}}
+                    transition={{duration:2}}
                     whileInView={{opacity:1,x:0,scale:1}} className='about_cards'>
                         <article className='about_card'>
                         <FaAward className='about_card_icon'/>
@@ -41,7 +41,7 @@ const About = () => {
                     </motion.div>
                     <motion.p
                     initial={{opacity:0,x:100,scale:0.5}}
-                    transition={{duration:1.5}}
+                    transition={{duration:2}}
                     whileInView={{opacity:1,x:0,scale:1}}
                     >Hello Greetings !<br/> I'm Sujal Verdhan, a Computer Science student and passionate <br/> Web Developer. With a knack for turning ideas into sleek, user-centric designs, I thrive on crafting impactful digital experiences. Let's collaborate and bring your vision to life!</motion.p>
                     
