@@ -31,7 +31,7 @@ const About = () => {
                         <article className='about_card'>
                         <PiUsersThreeLight className='about_card_icon'/>
                             <h5>Skills</h5>
-                            <small>Web Developer X Coder</small>
+                            <small>Web Developer & Coder</small>
                         </article>
                         <article className='about_card'>
                         <VscFolderActive className='about_card_icon'/>
