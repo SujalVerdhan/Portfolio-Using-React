@@ -21,7 +21,7 @@ const Testimonial = () => {
 ];
     return (
         <section id='testimonials'>
-            <h5>Review from clients</h5>
+            <h5>Review from buddies</h5>
             <h2>Testimonials</h2>
            <motion.div
             initial={{opacity:0.5,scale:0.5,x:-180}}
