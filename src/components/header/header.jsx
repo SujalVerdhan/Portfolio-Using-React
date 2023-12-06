@@ -14,8 +14,8 @@ const Header = () => {
        
         strings: [
           'A <i>Front-End Developer ,</i>',
-          'Sometimes a <i>Full-Stack Developer ,</i>',
-          '&amp; a <i>Computer Science Student.</i>',
+          'A <i>MERN-Stack Developer ,</i>',
+          '&amp; A <i>Computer Science Engineering Student.</i>',
           
         ],
         loop: true,
