@@ -1,0 +1,12 @@
+.login{
+    background-color: var(--color-bg-variant);
+    gap:1px;
+    border:1px solid transparent;
+    transition: var(--transition);
+}
+
+.login:hover{
+    background: transparent;
+    border-color:var(--color-primary-variant);
+   
+}
