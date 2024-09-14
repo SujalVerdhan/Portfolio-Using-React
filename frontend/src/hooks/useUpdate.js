@@ -9,7 +9,7 @@ export const useUpdate = () => {
     const {id}=useParams()
    const update=async(data)=>{
    try{
-const response=await fetch(`http://localhost:5000/api/project/update/${id}`,{
+const response=await fetch(`https://portfolio-using-react-tgvo.onrender.com/api/project/update/${id}`,{
     method:"POST",
     headers: {
         'Content-Type': 'application/json', // The content type you're sending (e.g., JSON)
