@@ -8,7 +8,7 @@ export const useProject = () => {
     const navigate=useNavigate()
     const add=async(data)=>{
       try{
-      const response=await fetch("http://localhost:5000/api/project/add",{
+      const response=await fetch("https://portfolio-using-react-tgvo.onrender.com/api/project/add",{
         method: 'POST', // Method type
         headers: {
           'Content-Type': 'application/json', // The content type you're sending (e.g., JSON)

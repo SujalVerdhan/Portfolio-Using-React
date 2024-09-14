@@ -8,7 +8,7 @@ const {setAuthUser}=useAuthContext()
 const navigate=useNavigate()
   const deleteItem=async(id)=>{
      try{
-          const response=await fetch(`http://localhost:5000/api/project/delete/${id}`,
+          const response=await fetch(`https://portfolio-using-react-tgvo.onrender.com/api/project/delete/${id}`,
             {credentials: 'include'})
           const data=await response.json();
           if(data.error==="Token expired"){

@@ -14,7 +14,7 @@ export const useGetProjects = () => {
             
            
 try{
-const res=await fetch("http://localhost:5000/api/project/get",{credentials: 'include'})
+const res=await fetch("https://portfolio-using-react-tgvo.onrender.com/api/project/get",{credentials: 'include'})
 const data=await res.json()
 console.log(data)
 if(data.error==="Token expired"){

@@ -68,7 +68,7 @@ export const Update= () => {
       const getupdate=async()=>{
         console.log("getupdate")
         try{
-          const response=await fetch(`http://localhost:5000/api/project/update/${id}`,{credentials:'include'});
+          const response=await fetch(`https://portfolio-using-react-tgvo.onrender.com/api/project/update/${id}`,{credentials:'include'});
           const data=await response.json();
           if(data.error==="Token expired"){
             localStorage.removeItem("portfolio-user");
