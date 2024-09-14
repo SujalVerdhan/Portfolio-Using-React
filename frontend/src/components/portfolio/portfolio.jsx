@@ -1,13 +1,8 @@
 import React, { useState } from 'react';
 import "./portfolio.css"
-import Keeper from "../../assets/Untitled design (1).png";
-import Todo from "../../assets/todolist.png";
-import {motion} from "framer-motion"
-import ExpressTodo from "../../assets/Untitled design (2).png";
-import Secret from "../../assets/secret.png"
-import Tindog from "../../assets/tindog.png"
 
-import Drumkit from "../../assets/drumki.png"
+import {motion} from "framer-motion"
+
 import Helper from './helper';
 import { useGetProjects } from '../../hooks/useGetProjects';
 import { Link } from 'react-router-dom';

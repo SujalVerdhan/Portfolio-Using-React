@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b697642.css",
+    "main.js": "/static/js/main.1cff5a41.js",
+    "static/media/IMG_7798.jpg": "/static/media/IMG_7798.dfb3635bbab59b79fe8a.jpg",
+    "static/media/ishaan.jpg": "/static/media/ishaan.c874e2d575af288733ad.jpg",
+    "static/media/sushant.png": "/static/media/sushant.fdee89f5581706607be1.png",
+    "static/media/ayush.png": "/static/media/ayush.8047fed9897a1d5fe222.png",
+    "static/media/divay.png": "/static/media/divay.2c5002749c51e39b951b.png",
+    "static/media/Sujal CV.pdf": "/static/media/Sujal CV.a134adc2f4a5761cad93.pdf",
+    "static/media/IMG_20220328_142251-removebg-preview.png": "/static/media/IMG_20220328_142251-removebg-preview.c9d1c90e29b11c4a775b.png",
+    "static/media/Untitled design (1).png": "/static/media/Untitled design (1).38861f3c36b22b53c238.png",
+    "static/media/tindog.png": "/static/media/tindog.4ed5a7e8ea99ca61d1ce.png",
+    "static/media/Untitled design (2).png": "/static/media/Untitled design (2).ff2213df912dd69e3ea6.png",
+    "static/media/secret.png": "/static/media/secret.4b5b91b7f5838436d8cb.png",
+    "static/media/Deepankar.jpg": "/static/media/Deepankar.7d54f0a8ecb5dc15c43f.jpg",
+    "static/media/drumki.png": "/static/media/drumki.919ded51b806871e32d8.png",
+    "static/media/todolist.png": "/static/media/todolist.ea61f7f8dece47e4d105.png",
+    "index.html": "/index.html",
+    "main.2b697642.css.map": "/static/css/main.2b697642.css.map",
+    "main.1cff5a41.js.map": "/static/js/main.1cff5a41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b697642.css",
+    "static/js/main.1cff5a41.js"
+  ]
+}
