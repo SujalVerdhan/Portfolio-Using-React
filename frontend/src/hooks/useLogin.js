@@ -6,7 +6,7 @@ export const useLogin = () => {
   const {setAuthUser}=useAuthContext()
   const login=async(data)=>{
     try{
-        const response=await fetch('http://localhost:5000/api/auth/login', {
+        const response=await fetch('https://portfolio-using-react-tgvo.onrender.com/api/auth/login', {
             method: 'POST', // Method type
             headers: {
               'Content-Type': 'application/json', // The content type you're sending (e.g., JSON)
