@@ -20,7 +20,7 @@ const Navbar = () => {
        // e.preventDefault();
        setActiveNav("#logout");
        try{
-         const res=await fetch("http://localhost:5000/api/auth/logout",{credentials: 'include'}) ;
+         const res=await fetch("https://portfolio-using-react-tgvo.onrender.com/api/auth/logout",{credentials: 'include'}) ;
          const data=await res.json();
          if(data.error){
               throw new Error(data.error);
