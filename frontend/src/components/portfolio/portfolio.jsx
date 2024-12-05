@@ -17,7 +17,7 @@ const Portfolio = () => {
            <div style={{width:"100%",justifyItems:"center",alignItems:"center"}}
              
            className='w-full container portfolio_container'>
-           {projects.length!==0 && projects.map(item=>{
+           {projects.length!==0 && projects?.map(item=>{
             return <motion.div style={{width:"100%"}} initial={{opacity:0,scale:0.5,x:100}} transition={{duration:2}} whileInView={{opacity:1,scale:1,x:0}}>
             <Helper item={item}/>
           </motion.div>
